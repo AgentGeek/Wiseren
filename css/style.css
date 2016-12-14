@@ -1,0 +1,498 @@
+@charset "utf-8";
+
+/*!
+ *  Wiseren Profile Template v1.0 by @Ankit_TrK - http://ankityadav.net
+ *  License - https://www.gnu.org/licenses/gpl.txt
+ */
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+/* A more considered reset; more of a restart... As per: csswizardry.com/2011/10/reset-restarted */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+strong, b, mark {
+    font-weight: bold;
+    font-style: inherit;
+}
+em, i, cite, q, address, dfn, var {
+    font-style: italic;
+    font-weight: inherit;
+}
+abbr[title], dfn[title] {
+    cursor: help;
+    border-bottom: 1px dotted;
+}
+ins {
+    border-bottom: 1px solid;
+}
+a, u, ins {
+    text-decoration: none;
+}
+del, s {
+    text-decoration: line-through;
+}
+pre, code, samp, kbd {
+    font-family: monospace;
+}
+small {
+    font-size: 0.75em;
+}
+img {
+    border: none;
+    font-style: italic;
+}
+input,
+select, option, optgroup,
+textarea {
+    font: inherit;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+html {
+    background-color: #f6f9f9;
+    color: #555;
+    font: 13px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    margin: 5%;
+}
+
+.avatar {
+    text-align: center;
+}
+    .avatar img {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 125px;
+    }
+
+.content {
+    text-align: center;
+
+}
+    .title {
+        font-size: 48px;
+        line-height: 1;
+        color: #1abc9c;
+        font-weight: 600;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+        .menu li {
+         display: inline;
+        }
+        .menu a {
+            display: inline;
+            margin-right: 8px;
+            text-transform: uppercase;
+        }
+
+    .wiseren-icons li {
+        display: inline;
+    }
+        .wiseren-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+            .wiseren-twitter {
+                background-image: url(../img/svg/twitter.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-facebook {
+                background-image: url(../img/svg/facebook.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-gplus {
+                background-image: url(../img/svg/gplus.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-dribbble {
+                background-image: url(../img/svg/dribbble.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-instagram {
+                background-image: url(../img/svg/instagram.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-flickr {
+                background-image: url(../img/svg/flickr.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-youtube {
+                background-image: url(../img/svg/youtube.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-behance {
+                background-image: url(../img/svg/behance.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-linkedin {
+                background-image: url(../img/svg/linkedin.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-github {
+                background-image: url(../img/svg/github.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-tumbler {
+                background-image: url(../img/svg/tumblr.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-vk {
+                background-image: url(../img/svg/vk.svg);
+                width: 25px;
+                height: 25px;
+            }
+            .wiseren-pinterest {
+                background-image: url(../img/svg/pinterest.svg);
+                width: 25px;
+                height: 25px;
+            }
+
+.work {
+    text-align: center;
+    display: table;
+    margin-bottom: 15px;
+    width: 60%
+}
+
+.projects {
+    position: relative;
+    min-height: 1px;
+}
+
+.projects img {
+    width: 300px;
+    height: auto;
+}
+
+.projects a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (max-width: 400px) {
+    .projects img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+footer {
+    color: #666;
+    text-align: center;
+    margin-top: 25px;
+    font:13px/1.5 "Arial Black", Gadget, sans-serif;
+    }
+    .heart {
+        display: inline-block;
+        background-image: url(../img/svg/heart.svg);
+        width: 13px;
+        height: 13px;
+        color: #a83f39;
+    }
+
+
+
+
+
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+p,
+ul, ol, dl,
+.title {
+    margin-bottom: 20px;
+}
+p {
+    font-weight: bold;
+}
+ul, ol, dl {
+    list-style-type: none;
+}
+a {
+    color: #339999;
+    font-weight: bold;
+}
+a:hover, a:focus {
+    color: #95a4a9;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MISC
+\*------------------------------------*/
+a img:hover,
+.social-icons a:hover {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    opacity: 0.85;
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+/*
+Animate.css - http://daneden.me/animate
+LICENSED UNDER THE  MIT LICENSE (MIT)
+
+Copyright (c) 2012 Dan Eden
+*/
+.animated {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes bounceInDown {
+    0% {
+        -webkit-transform: translateY(-2000px);
+    }
+    
+    60% {
+        -webkit-transform: translateY(30px);
+    }
+    
+    80% {
+        -webkit-transform: translateY(-10px);
+    }
+    
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes bounceInDown {
+    0% {
+        -moz-transform: translateY(-2000px);
+    }
+    
+    60% {
+        -moz-transform: translateY(30px);
+    }
+    
+    80% {
+        -moz-transform: translateY(-10px);
+    }
+    
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes bounceInDown {
+    0% {
+        -o-transform: translateY(-2000px);
+    }
+    
+    60% {
+        -o-transform: translateY(30px);
+    }
+    
+    80% {
+        -o-transform: translateY(-10px);
+    }
+    
+    100% {
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes bounceInDown {
+    0% {
+        transform: translateY(-2000px);
+    }
+    
+    60% {
+        transform: translateY(30px);
+    }
+    
+    80% {
+        transform: translateY(-10px);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    -moz-animation-name: bounceInDown;
+    -o-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+}
+
+.pump {
+    -webkit-animation: pump 1s linear infinite;
+    -moz-animation: pump 1s linear infinite;
+    -ms-animation: pump 1s linear infinite;
+    animation: pump 1s linear infinite;
+}
+
+@keyframes "pump" {
+ 0% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pump {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pump" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pump" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+
+
+
+
+
+/*------------------------------------*\
+    $MOBILE
+\*------------------------------------*/
+@media handheld, only screen and (max-width: 720px) {
+    .avatar,
+    .content {
+        float: none;
+        
+    }
+
+    .avatar img {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
