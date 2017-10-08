@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*!
- *  Wiseren Profile Template v1.02 by @Ankit_TrK - http://ankityadav.net
+ *  Wiseren Profile Template v1.03 by @iAgentGeek - http://ankityadav.net
  *  License - https://www.gnu.org/licenses/gpl.txt
  */
 
@@ -243,10 +243,7 @@ footer {
     }
     .heart {
         display: inline-block;
-        background-image: url(../img/svg/heart.svg);
-        width: 13px;
-        height: 13px;
-        color: #a83f39;
+        color: ##D64541;
     }
 
 
