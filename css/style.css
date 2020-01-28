@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*!
- *  Wiseren Profile Template v1.03 by @iAgentGeek - http://ankityadav.net
+ *  Wiseren Profile Template v1.03 by Github.com/AgentGeek
  *  License - https://www.gnu.org/licenses/gpl.txt
  */
 
@@ -227,11 +227,13 @@ body {
 
 .about {
     width: 33%;
+    text-aling: justify;
 }
 
 @media (max-width: 400px) {
     .about {
         width: 90%;
+        text-align: justify;
     }
 }
 
