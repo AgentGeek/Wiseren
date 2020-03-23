@@ -3,7 +3,7 @@ Light weight and attractive personal vCard template.
 
 ## About wiseren
 Wiseren is simple and small html template for your personal website with working contact form(through phpmail).
-For a working demo you can visit my website(http://ankityadav.net).
+For a working demo you can visit my website: No demo available as of now.
 
 ## Features
 - Simple and sleek design
@@ -20,4 +20,4 @@ Wiseren is released under GNU GPL v3 allowing everyone to edit the code, you are
 To make your contact form working make sure you have phpmail enabled on your server/hosting environment then open bin/contact_me.php and edit your email address according to your needs.
 
 <br><br>
-Copyright © 2016. Made with <img src="http://ankityadav.net/img/svg/heart.svg" width="13px" height="13px"> In India by <a href="http://ankitYadav.net">Ank!t Yadav</a> (:
+Copyright © 2016. Made with <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg" width="13px" height="13px"> In India by Ank!t (:
